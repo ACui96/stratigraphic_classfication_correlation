@@ -1,0 +1,7 @@
+/data/*
+/notebooks/h5/*
+/notebooks/unsupervised/region.csv
+*/h5/*
+*/__pycache__/*
+/h5/*
+*.pyc
