@@ -164,7 +164,8 @@ print("\n--- Load, inspect and transform data ---\n")
 # Load data set containing all the data from csv
 # 读取原始数据
 # df = pd.read_csv(r'D:\workspace\pycharm\welllogAI\data\处理后的FORCE数据集\force-train.csv')
-df = pd.read_csv('../data/ciflog_scalared_fetures_med9.csv')
+# df = pd.read_csv(r'../data/ciflog_scalared_fetures_med9.csv')
+df = pd.read_csv('D:\workspace\scientificProject\stratigraphic_classfication_correlation\data\ciflog_scalared_fetures_med9.csv')
 # LABELS = df['GROUP_encoded'].unique()
 LABELS = df['Formation'].unique()
 # Describe the data

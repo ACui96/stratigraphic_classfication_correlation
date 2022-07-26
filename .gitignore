@@ -5,3 +5,5 @@
 */__pycache__/*
 /h5/*
 *.pyc
+*.pkl
+.vscode
